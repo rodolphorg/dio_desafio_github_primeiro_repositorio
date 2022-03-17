@@ -1,2 +1,7 @@
-# dio_desafio_github_primeiro_repositorio
-Desafio - Criar um repositório público como exercício prático
+# Desafio de Projeto para Git/Github
+
+Repositório público criado como exercício prático
+
+
+## Links úteis
+[Sintaxe básica Markdown https://www.markdownguide.org/basic-syntax]
