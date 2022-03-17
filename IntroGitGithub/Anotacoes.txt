@@ -2,6 +2,34 @@ Link para download do Git
 
 https://git-scm.com/downloads
 
+O Git é utilizado para versionamento de software e projetos em geral.
+
+Pode ser usado para versionamento de artigos científicos no meio acadêmico.
 
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos básicos
+
+git status -  mostra o status do diretório
+
+git add . - adiciona os arquivos e pastas criadas dentro do repositorio local a lista de objetos a serem comitados
+
+git commit - m "comentario descritivo" - comita os objetos adicionados
+
+git push origin main - faz upload para o diretorio remoto das modificacoes locais
+
+obs: desde 2021 o Git deixou de usar senha para autenticação.
+como alternativa pode-se utilizar um token pessoal como forma de autenticação.
+O caminho para geração do token é o seguinte:
+- foto de perfil no GitHub
+- Settings
+- Developer settings
+- Personal accesss tokens - mostra uma lista de tokens criados que podem ser usados para acessar o GitHub API
+é possível gerar um novo token com prazo para expirar e escopo bem definido
+- o token gerado ou o já criado deve ser inserido na campo de password quando requisitado após a inserção do nome de usuário no "git push".
+
+O token aparece na tela somente uma vez, portanto precisa ser anotado para uso futuro. 
+Há a opção de regenerar o token mas será necessário fazer atualizar todos os scripts que utilizem o token.
+
+
 
